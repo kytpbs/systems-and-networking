@@ -1,6 +1,6 @@
 # Systems and Networking - Unit I - 2025-26
 
-[News](#News) | [General Information](#General-Information) | [Syllabus](#Syllabus) | [Class Schedules](#Class-Schedules) | [Previous Years](#Previous-Years)
+[News](#News) | [General Information](#General-Information) | [Course Materials](#Course-Materials) | [Syllabus](#Syllabus) | [Class Schedules](#Class-Schedules) | [Previous Years](#Previous-Years)
 
 ## News
 <!--
@@ -121,6 +121,22 @@ Although they are **not** mandatory to pass the exam successfully, the following
 - _Modern Operating Systems_ [Tanenbaum _et al._];
 - _Operating Systems: Three Easy Pieces_ [Remzi] (<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/" target="_blank">freely available online</a>).
  
+
+<hr>
+
+## Course Materials
+
+Access all course resources in one place:
+
+### 📚 [Lecture Slides](./lectures/slides/README.md)
+Complete collection of lecture slides organized by topic, including Introduction, Process Management, CPU Scheduling, Threads, Synchronization, Deadlock, Memory Management, Virtual Memory, and Storage Management.
+
+### 📝 [Exercises](./exercises/README.md)
+Practice exercises and their solutions from current and previous years to help you prepare for exams.
+
+### 📊 [Exam Grades](./exams/README.md)
+Historical exam grade reports organized by academic year (2021-22 through 2025-26).
+
 <hr>
 
 ## Syllabus
