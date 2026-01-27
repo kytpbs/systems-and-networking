@@ -6,7 +6,7 @@ This folder contains grade reports for all exam sessions, organized by academic 
 
 | Exam Date | Grades |
 |-----------|--------|
-| _Upcoming_ | -- |
+| January 27, 2026 | [PDF](./2025-26/2026-01-27_grades.pdf) |
 
 ## Academic Year 2024-25
 
