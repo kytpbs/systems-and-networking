@@ -1,6 +1,6 @@
 # Systems and Networking - Unit I - 2025-26
 
-[News](#News) | [General Information](#General-Information) | [Syllabus](#Syllabus) | [Class Schedules](#Class-Schedules) | [Previous Years](#Previous-Years)
+[News](#News) | [General Information](#General-Information) | [Syllabus](#Syllabus) | [Class Schedules](#Class-Schedules) | [Previous Years](#Previous-Years) | 📚[Slides](./lectures/slides/README.md) | 📝[Exercises](./exercises/README.md) | 📊 [Grades](./exams/README.md)
 
 ## News
 <!--
@@ -57,6 +57,21 @@ This exam session is scheduled for **Tuesday, January 27, 2026** in **Aula Infor
 At the same time, the **Systems and Networking II** class (Prof. Bartolini) will take place on **Tuesday, November 25**, instead of Wednesday, November 26, **from 4:00 to 6:00 PM.**
 - **IMPORTANT ANNOUNCEMENT:** The lecture scheduled for **Thursday, November 6 is canceled**.
 - **IMPORTANT ANNOUNCEMENT:** Classes are **suspended from Thursday, October 30 to Wednesday, November 5, inclusive**.
+
+<hr>
+## Course Materials
+
+Access all course resources in one place:
+
+### 📚 [Lecture Slides](./lectures/slides/README.md)
+Complete collection of lecture slides organized by topic, including Introduction, Process Management, CPU Scheduling, Threads, Synchronization, Deadlock, Memory Management, Virtual Memory, and Storage Management.
+
+### 📝 [Exercises](./exercises/README.md)
+Practice exercises and their solutions from current and previous years to help you prepare for exams.
+
+### 📊 [Exam Grades](./exams/README.md)
+Historical exam grade reports organized by academic year (2021-22 through 2025-26).
+<hr>
 
 ## General Information
 
