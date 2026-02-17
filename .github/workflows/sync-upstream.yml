@@ -2,7 +2,7 @@ name: Sync Upstream
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -10,6 +10,9 @@ permissions:
 
 jobs:
   sync:
+    concurrency:
+      group: sync-upstream-default-branch
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     steps:
       - name: Checkout fork repository
