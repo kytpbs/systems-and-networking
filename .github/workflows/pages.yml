@@ -1,0 +1,103 @@
+name: Build and Deploy Pages
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build folder index site
+        run: |
+          rm -rf _site
+          rsync -a --exclude='.git' --exclude='.github' ./ _site/
+          python - <<'PY'
+          import html
+          from pathlib import Path
+
+          root = Path('_site')
+
+          def rel_parts(path: Path):
+            return path.relative_to(root).parts if path != root else ()
+
+          for directory in sorted([p for p in root.rglob('*') if p.is_dir()] + [root]):
+            entries = sorted(
+              [p for p in directory.iterdir() if not p.name.startswith('.')],
+              key=lambda p: (not p.is_dir(), p.name.lower())
+            )
+
+            title = '/'.join(rel_parts(directory)) or 'Repository root'
+            readme_lines = [f'# {title}', '', '## Contents', '']
+            if entries:
+              for entry in entries:
+                suffix = '/' if entry.is_dir() else ''
+                readme_lines.append(f'- [{entry.name}{suffix}](./{entry.name}{suffix})')
+            else:
+              readme_lines.append('- _(empty directory)_')
+            readme_lines.append('')
+
+            (directory / 'README.md').write_text('\n'.join(readme_lines), encoding='utf-8')
+
+            breadcrumbs = ['<a href="/">root</a>']
+            parts = rel_parts(directory)
+            for i, part in enumerate(parts):
+              href = '/' + '/'.join(parts[: i + 1]) + '/'
+              breadcrumbs.append(f'<a href="{html.escape(href)}">{html.escape(part)}</a>')
+
+            items = []
+            if entries:
+              for entry in entries:
+                href = f"{entry.name}/" if entry.is_dir() else entry.name
+                label = f"{entry.name}/" if entry.is_dir() else entry.name
+                items.append(f'<li><a href="{html.escape(href)}">{html.escape(label)}</a></li>')
+            else:
+              items.append('<li><em>empty directory</em></li>')
+
+            page = f"""<!doctype html>
+          <html lang=\"en\">
+          <head>
+            <meta charset=\"utf-8\" />
+            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
+            <title>{html.escape(title)} - Repository Browser</title>
+            <style>
+              body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 2rem auto; max-width: 900px; line-height: 1.5; padding: 0 1rem; }}
+              nav {{ margin-bottom: 1rem; }}
+            </style>
+          </head>
+          <body>
+            <h1>{html.escape(title)}</h1>
+            <nav>{' / '.join(breadcrumbs)}</nav>
+            <ul>
+              {''.join(items)}
+            </ul>
+          </body>
+          </html>
+          """
+            (directory / 'index.html').write_text(page, encoding='utf-8')
+          PY
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
