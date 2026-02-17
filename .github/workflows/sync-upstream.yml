@@ -1,0 +1,52 @@
+name: Sync Upstream
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    concurrency:
+      group: sync-upstream-default-branch
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout fork repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve upstream repository
+        id: upstream
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data } = await github.rest.repos.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            });
+            const upstream = data.parent?.full_name || '';
+            core.setOutput('repository', upstream);
+
+      - name: Sync default branch with upstream
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          UPSTREAM_REPOSITORY: ${{ steps.upstream.outputs.repository }}
+        run: |
+          if [ -z "$UPSTREAM_REPOSITORY" ]; then
+            echo "Repository is not a fork, no upstream to sync."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git remote add upstream "https://github.com/${UPSTREAM_REPOSITORY}.git"
+          git fetch upstream "$DEFAULT_BRANCH"
+          git checkout "$DEFAULT_BRANCH"
+          git rebase --strategy-option=theirs "upstream/$DEFAULT_BRANCH"
+          git push --force origin "$DEFAULT_BRANCH"
