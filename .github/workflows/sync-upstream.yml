@@ -49,4 +49,4 @@ jobs:
           git fetch upstream "$DEFAULT_BRANCH"
           git checkout "$DEFAULT_BRANCH"
           git reset --hard "upstream/$DEFAULT_BRANCH"
-          git push --force-with-lease origin "$DEFAULT_BRANCH"
+          git push --force origin "$DEFAULT_BRANCH"

@@ -27,7 +27,7 @@ jobs:
       - name: Build folder index site
         run: |
           rm -rf _site
-          rsync -a --exclude='.git' --exclude='.github' --exclude='.env*' --exclude='*.key' --exclude='*.pem' --exclude='secrets*' ./ _site/
+          rsync -a --exclude='.git' --exclude='.github' --exclude='.env*' --exclude='*.key' --exclude='*.pem' --exclude='*.pfx' --exclude='*.p12' --exclude='id_rsa*' --exclude='.ssh' --exclude='secrets*' ./ _site/
           python - <<'PY'
           import html
           from pathlib import Path
