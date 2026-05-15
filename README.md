@@ -20,13 +20,11 @@ As a reminder, this exam session is scheduled for **Thursday, July 3, 2025, at 3
 The oral exam will take place on **Monday, June 9, at 2:30 PM CEST**. Please refer to the instructions sent via the Moodle forum for more information.
 - **Written Exam Session III (06/04/2025) - Grades**<br/>
 The results of the test are available at the following <a href="./exams/2024-25/2025-06-04_grades.pdf" target="_blank">link</a>.
-- **Written Exam Session III (06/04/2025)**<br/> 
-Registrations to the third written exam session are now open via Google Form at the following <a href="https://forms.gle/fhERR2zfLTzyzGN5A" target="_blank">link</a>. You'll need to log in to your institutional Google account so you can access the form. Just so you know, this poll closes on **Saturday, May 31, 2025, at 11:59 PM CEST**; only students who manifest their willingness to participate by that time will be allowed to attend the exam. If you change your mind and don't want to participate in this exam session anymore, **_please update your answer on the form accordingly_**, as this will significantly help me with the organization of the test.<br/>
-As a reminder, this exam session is scheduled for **Wednesday, June 4, 2025, at 3:45 PM** in **Aula Informatica 15**, located in Via Tiburtina, 205 ([map](https://goo.gl/maps/TgnJCWDfx2VQRo4u5)). ~Depending on the number of participants, the exam might be split into two consecutive rounds. More accurate details on the exact schedule will be communicated close to the exam date.~<br/>
-**NOTE:** _Students who are sure they will not attend this exam session **should not** fill out this form! Besides, everyone can decide to opt in by the closing date of this poll._
-- **Oral Exam Extra Session**<br/> 
-The oral exam will take place on **Monday, March 31, at 4:00 PM CEST**. Please refer to the instructions sent via the Moodle forum for more information.
 -->
+- **Written Exam Session III (06/09/2026)**<br/> 
+Registrations to the third written exam session are now open via Google Form at the following <a href="https://forms.gle/DDQVmxUPRAcFZt7v9" target="_blank">link</a>. You'll need to log in to your institutional Google account so you can access the form. Just so you know, this poll closes on **Friday, June 5, 2026, at 11:59 PM CEST**; only students who manifest their willingness to participate by that time will be allowed to attend the exam. If you change your mind and don't want to participate in this exam session anymore, **_please update your answer on the form accordingly_**, as this will significantly help me with the organization of the test.<br/>
+As a reminder, this exam session is scheduled for **Tuesday, June 9, 2026, at 3:30 PM** in **Aula Informatica 15**, located in Via Tiburtina, 205 ([map](https://goo.gl/maps/TgnJCWDfx2VQRo4u5)).<br/>
+**NOTE:** _The schedule above is still **tentative**. In addition, depending on the number of participants, the exam might be split into two consecutive rounds. More accurate details on the exact schedule will be communicated close to the exam date. Finally, students who are sure they will not attend this exam session **should not** fill out this form! Besides, everyone can decide to opt in by the closing date of this poll._
 - **Written Exam Extra Session (03/25/2026) - Grades**<br/>
 The results of the test are available at the following <a href="./exams/2025-26/2026-03-25_grades.pdf" target="_blank">link</a>.
 - **Written Exam Extra Session: March 25, 2026**<br/> 
