@@ -18,7 +18,7 @@ Registrations to the fourth written exam session are now open via Google Form at
 As a reminder, this exam session is scheduled for **Tuesday, July 7, 2026, at 2:30 PM** in **Aula Informatica 15**, located in Via Tiburtina, 205 ([map](https://goo.gl/maps/TgnJCWDfx2VQRo4u5)).<br/>
 **NOTE:** _The schedule above is still **tentative**. In addition, depending on the number of participants, the exam might be split into two consecutive rounds. More accurate details on the exact schedule will be communicated close to the exam date. Finally, students who are sure they will not attend this exam session **should not** fill out this form! Besides, everyone can decide to opt in by the closing date of this poll._
 - **Oral Exam Session III**<br/> 
-The oral exam will take place on **Tuesday, June 9, 2026, at 4:00 PM**, right after the written test.
+The oral exam will take place on **Tuesday, June 9, 2026, at 4:00 PM**, right after the written test, in **Aula Informatica 15**, located in Via Tiburtina, 205.
 - **Written Exam Session III (06/09/2026) - Grades**<br/>
 The results of the test are available at the following <a href="./exams/2025-26/2026-06-09_grades.pdf" target="_blank">link</a>.
 - **Written Exam Session III (06/09/2026)**<br/> 
