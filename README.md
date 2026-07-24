@@ -8,11 +8,11 @@
 Registrations to the fifth written exam session are now open via Google Form at the following <a href="https://forms.gle/nqnsJtRS7jo3EJhGA" target="_blank">link</a>. You'll need to log in to your institutional Google account so you can access the form. Just so you know, this poll closes on **Friday, September 5, 2025, at 11:59 PM CEST**; only students who manifest their willingness to participate by that time will be allowed to attend the exam. If you change your mind and don't want to participate in this exam session anymore, **_please update your answer on the form accordingly_**, as this will significantly help me with the organization of the test.<br/>
 As a reminder, this exam session is scheduled for **Tuesday, September 9, 2025, at 2:30 PM** in **Aula Informatica 15**, located in Via Tiburtina, 205 ([map](https://goo.gl/maps/TgnJCWDfx2VQRo4u5)). ~Depending on the number of participants, the exam might be split into two consecutive rounds. More accurate details on the exact schedule will be communicated close to the exam date.~<br/>
 **NOTE:** _Students who are sure they will not attend this exam session **should not** fill out this form! Besides, everyone can decide to opt in by the closing date of this poll._
-- **Oral Exam Session IV**<br/> 
-The oral exam will take place on **Monday, July 7, at 11:00 AM CEST**. Please refer to the instructions sent via the Moodle forum for more information.
-- **Written Exam Session IV (07/03/2025) - Grades**<br/>
-The results of the test are available at the following <a href="./exams/2024-25/2025-07-03_grades.pdf" target="_blank">link</a>.
 -->
+- **Oral Exam Session IV**<br/> 
+The oral exam will take place on **Friday, July 24, 2026, at 9:00 AM**. Please refer to the instructions sent via the Moodle forum for more information.
+- **Written Exam Session IV (07/23/2026) - Grades**<br/>
+The results of the test are available at the following <a href="./exams/2025-26/2026-07-23_grades.pdf" target="_blank">link</a>.
 - **Written Exam Session IV (~07/07/2026~ 07/23/2026)**<br/> 
 Registrations to the fourth written exam session are now open via Google Form at the following <a href="https://forms.gle/ZXniHnzrcfa89ELe8" target="_blank">link</a>. You'll need to log in to your institutional Google account so you can access the form. Just so you know, this poll closes on **~Friday, July 3~ Sunday, July 19, 2026, at 11:59 PM CEST**; only students who manifest their willingness to participate by that time will be allowed to attend the exam. If you change your mind and don't want to participate in this exam session anymore, **_please update your answer on the form accordingly_**, as this will significantly help me with the organization of the test.<br/>
 As a reminder, this exam session is scheduled for **~Tuesday, July 7~ Thursday, July 23, 2026, at 5:00 PM** in **Aula Informatica 15**, located in Via Tiburtina, 205 ([map](https://goo.gl/maps/TgnJCWDfx2VQRo4u5)).<br/>
