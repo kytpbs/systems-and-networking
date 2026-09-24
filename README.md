@@ -3,6 +3,12 @@
 [News](#News) | [General Information](#General-Information) | [Syllabus](#Syllabus) | [Class Schedules](#Class-Schedules) | [Previous Years](#Previous-Years)
 
 ## News
+<!--- **Written Exam Extra Session (10/14/2026) - Grades**<br/>
+The results of the test are available at the following <a href="../exams/2025-26/2026-10-14_grades.pdf" target="_blank">link</a>.-->
+- **Written Exam Extra Session (10/14/2026)**<br/>
+The written extra session is scheduled for **Wednesday, October 14, 2026, at 11:00 AM** and will take place in **Laboratorio Colossus**, located in Via Salaria, 113 ([map](https://maps.app.goo.gl/rsyaLFf7boJZDawDA)). However, notice that the time schedule above is **_tentative_**, and slight changes might occur if needed.
+I remind you that **only eligible students who submit their request within the deadlines set by the academic office will be allowed to register for this exam**. For organizational reasons, **no exceptions will be made**.<br/>
+Registrations to this extra exam session are now open via Google Form at the following <a href="https://forms.gle/Sf8uyFym8TrtZvKB7" target="_blank">link</a>. You'll need to log in to your institutional Google account to access the form. Just so you know, this poll closes on **Sunday, October 11, 2026, at 11:59 p.m. CEST**; only students who manifest their willingness to participate by that time will be allowed to attend the exam. If you change your mind and don't want to participate in this exam session anymore, **_please update your answer on the form accordingly_**, as this will significantly help me with the organization of the test.<br/>
 - **Oral Exam Session V**<br/> 
 The oral exam will take place on **Wednesday, September 9, 2026, at 9:00 AM**. Please refer to the instructions sent via the Moodle forum for more information.
 - **Written Exam Session V (09/08/2026) - Grades**<br/>
